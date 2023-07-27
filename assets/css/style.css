@@ -481,7 +481,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: hsla(210, 25%, 3%, 0.788); 
+  background: hsla(210, 25%, 3%, 0.600); 
   position: absolute;
   bottom: 0;
   top: 0;
@@ -519,8 +519,10 @@ h6 {
 }
 
 #hero .carousel-container img {
-  width: 80%;
-  max-width: 450px;
+  width: 90%;
+  max-width: 550px;
+  border-radius: 5px;
+  overflow: hidden;
 } 
 
 
